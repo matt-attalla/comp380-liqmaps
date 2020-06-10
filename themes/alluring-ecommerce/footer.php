@@ -16,19 +16,25 @@
         <div class="col-lg-4">
             <h3>Menu</h3>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 d-flex flex-column">
             <h3>
                 Follow us
             </h3>
-            <ul class="list-unstyled m-0 p-0">
-                <li>
-                    <i class="fab fa-2x fa-facebook-f"></i>
+            <ul class="list-unstyled d-flex m-0 p-0">
+                <li class="mr-2">
+                    <a href="/" target="_blank">
+                        <i class="fab fa-2x fa-facebook-f"></i>
                 </li>
-                <li>
-                    <i class="fab fa-2x fa-instagram"></i>
+
+                <li class="mr-2">
+                    <a href="/" target="_blank">
+                        <i class="fab fa-2x fa-instagram"></i>
+                    </a>
                 </li>
-                <li>
-                    <i class="fab fa-2x fa-twitter"></i>
+                <li class="mr-2">
+                    <a href="/" target="_blank">
+                        <i class="fab fa-2x fa-twitter"></i>
+                    </a>
                 </li>
             </ul>
         </div>
