@@ -21,9 +21,15 @@
                 Follow us
             </h3>
             <ul class="list-unstyled m-0 p-0">
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
+                <li>
+                    <i class="fab fa-2x fa-facebook-f"></i>
+                </li>
+                <li>
+                    <i class="fab fa-2x fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fab fa-2x fa-twitter"></i>
+                </li>
             </ul>
         </div>
     </div>
