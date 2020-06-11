@@ -11,8 +11,7 @@
 
 <body <?php body_class(); ?>>
 	<div class="navigation-wrapper">
-		
-		<div class="site grid-container">
+		<div class="site">
 			<header id="masthead" class="site-header grid-x grid-padding-x">
 				<div class="site-branding large-3 medium-9 small-8 cell">
 					<?php
