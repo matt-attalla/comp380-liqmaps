@@ -41,6 +41,7 @@ html * {
 #page{
 	position: relative;
 	margin-top: 30px;
+	margin-top: 0;
 	margin-bottom: 30px;
 }
 blockquote {
@@ -1742,8 +1743,7 @@ p.return-to-shop {
 }
 @media print, screen and (min-width: 40em) {
 	.grid-container {
-		padding-right: 40px;
-		padding-left: 40px;
+		max-width: 100% !important;
 	}
 }
 .iot-dot-menu-a::after {
@@ -2699,14 +2699,7 @@ p.form-submit,
 .wp-block-columns {
 	width: 100%;
 }
-/* Blog Feed */
-.blog main,
-.search-results main,
-.archive main {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
+
 .woocommerce-js.search-results main article {
 	margin-bottom:25px;
 }
