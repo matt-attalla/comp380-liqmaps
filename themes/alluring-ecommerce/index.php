@@ -20,6 +20,9 @@ get_header();
 		<div>
 			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
+    <div>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt="Tequila Image">
+    </div>
 		<div class="container">
 			<section>
 				<h2>
@@ -71,6 +74,7 @@ get_header();
 			</section>
 
 			<section>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
 				<h2>
 					Vodka
 				</h2>
@@ -95,8 +99,6 @@ get_header();
 				</h2>
 			</section>
 		</div>
-
-
 
 	</main><!-- #main -->
 </div><!-- #primary -->
