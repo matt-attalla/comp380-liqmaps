@@ -18,13 +18,13 @@ get_header();
 <div id="primary">
 	<main id="main" class="site-main" style="display: block;">
 		<div>
-			<img src="http://localhost/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
 		<section>
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt=" image">
 			<h2>
 				The Finest Tequila
 			</h2>
-			<img src="http://localhost/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt=" image">
 		</section>
 
 		<section>
@@ -34,10 +34,10 @@ get_header();
 		</section>
 
 		<section>
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt=" image">
 			<h2>
 				Vodka
 			</h2>
-			<img src="http://localhost/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt=" image">
 		</section>
 
 		<section>
