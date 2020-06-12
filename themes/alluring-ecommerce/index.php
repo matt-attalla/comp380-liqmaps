@@ -18,7 +18,7 @@ get_header();
 <div id="primary">
 	<main id="main" class="site-main" style="display: block;">
 		<div>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
+			<img src="http://localhost/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
 		<section>
 			<h2>
@@ -42,12 +42,14 @@ get_header();
 			<h2>
 				Rum
 			</h2>
+         <img src="http://localhost/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt=" image">
 		</section>
 
 		<section>
 			<h2>
 				Cognac
 			</h2>
+         <img src="http://localhost/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt=" image">
 
 		</section>
 
