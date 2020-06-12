@@ -18,7 +18,7 @@ get_header();
 <div id="primary">
 	<main id="main" class="site-main" style="display: block;">
 		<div>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
+			<img src="http://localhost/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
 		<div class="container">
 			<section>
@@ -74,12 +74,48 @@ get_header();
 				<h2>
 					Vodka
 				</h2>
+				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+						<?php
+
+						$args = array(
+							'post_type' => 'product',
+							'product_cat' => 'vodka'
+						);
+
+						$loop = new WP_Query($args);
+						while ($loop->have_posts()) : $loop->the_post();
+							wc_get_template_part('content', 'product');
+
+						endwhile;
+						wp_reset_query(); // Remember to reset 
+						?>
+					</ul>
+				</div>
 			</section>
 
 			<section>
 				<h2>
 					Rum
 				</h2>
+				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+						<?php
+
+						$args = array(
+							'post_type' => 'product',
+							'product_cat' => 'rum'
+						);
+						
+						$loop = new WP_Query($args);
+						while ($loop->have_posts()) : $loop->the_post();
+							wc_get_template_part('content', 'product');
+
+						endwhile;
+						wp_reset_query(); // Remember to reset 
+						?>
+					</ul>
+				</div>
 			</section>
 
 			<section>
