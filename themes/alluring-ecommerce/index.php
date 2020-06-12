@@ -20,6 +20,7 @@ get_header();
 		<div>
 			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
+    
     <div>
         <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt="Tequila Image">
     </div>
@@ -100,6 +101,7 @@ get_header();
 			</section>
 
 			<section>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt="Rum Image">
 				<h2>
 					Rum
 				</h2>
@@ -124,6 +126,7 @@ get_header();
 			</section>
 
 			<section>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt="Cognac Image">
 				<h2>
 					Cognac
 				</h2>
