@@ -264,3 +264,13 @@ if(! function_exists('alluring_ecommerce_customize_register_output' ) ):
 		}
 		add_filter('the_content', 'alluring_ecommerce_before_h2');
 
+add_action('woocommerce_before_shop_loop_item_title', 'add_div_before_product_thumbnail', 9);
+add_action('woocommerce_shop_loop_item_title', 'add_div_after_product_thumbnail', 9);
+
+function add_div_before_product_thumbnail (){
+	echo "<div>";
+}
+
+function add_div_after_product_thumbnail (){
+	echo "</div>";
+}
