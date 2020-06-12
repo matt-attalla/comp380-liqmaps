@@ -31,7 +31,7 @@ get_header();
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
 					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
 						<?php
-
+            
 						$args = array(
 							'post_type' => 'product',
 							'product_cat' => 'tequila'
@@ -49,6 +49,7 @@ get_header();
 			</section>
 
 			<section>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="Whiskey Image">
 				<h2>
 					Top Shelf Whiskey
 				</h2>
@@ -148,6 +149,7 @@ get_header();
 			</section>
 
 			<section>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="Rye Image">
 				<h2>
 					Rye
 				</h2>
