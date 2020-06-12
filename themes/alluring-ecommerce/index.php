@@ -20,19 +20,17 @@ get_header();
 		<div>
 			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
-    
-    <div>
-        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt="Tequila Image">
-    </div>
-		<div class="container">
-			<section>
+
+		<section>
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt="Tequila Image">
+			<div class="container">
 				<h2>
 					The Finest Tequila
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
 					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
 						<?php
-            
+
 						$args = array(
 							'post_type' => 'product',
 							'product_cat' => 'tequila'
@@ -47,137 +45,146 @@ get_header();
 						?>
 					</ul>
 				</div>
-			</section>
+		</section>
+</div>
 
-			<section>
-        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="Whiskey Image">
-				<h2>
-					Top Shelf Whiskey
-				</h2>
+<section>
+	<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="Whiskey Image">
+	<div class="container">
+		<h2>
+			Top Shelf Whiskey
+		</h2>
 
-				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
-						<?php
+		<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+			<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+				<?php
 
-						$args = array(
-							'post_type' => 'product',
-							'product_cat' => 'whiskey'
-						);
+				$args = array(
+					'post_type' => 'product',
+					'product_cat' => 'whiskey'
+				);
 
-						$loop = new WP_Query($args);
-						while ($loop->have_posts()) : $loop->the_post();
-							wc_get_template_part('content', 'product');
+				$loop = new WP_Query($args);
+				while ($loop->have_posts()) : $loop->the_post();
+					wc_get_template_part('content', 'product');
 
-						endwhile;
-						wp_reset_query(); // Remember to reset 
-						?>
-					</ul>
-				</div>
-			</section>
-
-			<section>
-        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
-				<h2>
-					Vodka
-				</h2>
-				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
-						<?php
-
-						$args = array(
-							'post_type' => 'product',
-							'product_cat' => 'vodka'
-						);
-
-						$loop = new WP_Query($args);
-						while ($loop->have_posts()) : $loop->the_post();
-							wc_get_template_part('content', 'product');
-
-						endwhile;
-						wp_reset_query(); // Remember to reset 
-						?>
-					</ul>
-				</div>
-			</section>
-
-			<section>
-        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt="Rum Image">
-				<h2>
-					Rum
-				</h2>
-				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
-						<?php
-
-						$args = array(
-							'post_type' => 'product',
-							'product_cat' => 'rum'
-						);
-						
-						$loop = new WP_Query($args);
-						while ($loop->have_posts()) : $loop->the_post();
-							wc_get_template_part('content', 'product');
-
-						endwhile;
-						wp_reset_query(); // Remember to reset 
-						?>
-					</ul>
-				</div>
-			</section>
-
-			<section>
-        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt="Cognac Image">
-				<h2>
-					Cognac
-				</h2>
-				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
-						<?php
-
-						$args = array(
-							'post_type' => 'product',
-							'product_cat' => 'cognac'
-						);
-
-						$loop = new WP_Query($args);
-						while ($loop->have_posts()) : $loop->the_post();
-							wc_get_template_part('content', 'product');
-
-						endwhile;
-						wp_reset_query(); // Remember to reset 
-						?>
-					</ul>
-				</div>
-
-			</section>
-
-			<section>
-        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="Rye Image">
-				<h2>
-					Rye
-				</h2>
-				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
-					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
-						<?php
-
-						$args = array(
-							'post_type' => 'product',
-							'product_cat' => 'rye'
-						);
-
-						$loop = new WP_Query($args);
-						while ($loop->have_posts()) : $loop->the_post();
-							wc_get_template_part('content', 'product');
-
-						endwhile;
-						wp_reset_query(); // Remember to reset 
-						?>
-					</ul>
-				</div>
-			</section>
+				endwhile;
+				wp_reset_query(); // Remember to reset 
+				?>
+			</ul>
 		</div>
+	</div>
+</section>
 
-	</main><!-- #main -->
+<section>
+	<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
+	<div class="container">
+		<h2>
+			Vodka
+		</h2>
+		<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+			<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+				<?php
+
+				$args = array(
+					'post_type' => 'product',
+					'product_cat' => 'vodka'
+				);
+
+				$loop = new WP_Query($args);
+				while ($loop->have_posts()) : $loop->the_post();
+					wc_get_template_part('content', 'product');
+
+				endwhile;
+				wp_reset_query(); // Remember to reset 
+				?>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section>
+	<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt="Rum Image">
+	<div class="container">
+		<h2>
+			Rum
+		</h2>
+		<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+			<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+				<?php
+
+				$args = array(
+					'post_type' => 'product',
+					'product_cat' => 'rum'
+				);
+
+				$loop = new WP_Query($args);
+				while ($loop->have_posts()) : $loop->the_post();
+					wc_get_template_part('content', 'product');
+
+				endwhile;
+				wp_reset_query(); // Remember to reset 
+				?>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section>
+	<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt="Cognac Image">
+	<div class="container">
+		<h2>
+			Cognac
+		</h2>
+		<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+			<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+				<?php
+
+				$args = array(
+					'post_type' => 'product',
+					'product_cat' => 'cognac'
+				);
+
+				$loop = new WP_Query($args);
+				while ($loop->have_posts()) : $loop->the_post();
+					wc_get_template_part('content', 'product');
+
+				endwhile;
+				wp_reset_query(); // Remember to reset 
+				?>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section>
+	<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="Rye Image">
+	<div class="container">
+		<h2>
+			Rye
+		</h2>
+		<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+			<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+				<?php
+
+				$args = array(
+					'post_type' => 'product',
+					'product_cat' => 'rye'
+				);
+
+				$loop = new WP_Query($args);
+				while ($loop->have_posts()) : $loop->the_post();
+					wc_get_template_part('content', 'product');
+
+				endwhile;
+				wp_reset_query(); // Remember to reset 
+				?>
+			</ul>
+		</div>
+	</div>
+</section>
+
+</main><!-- #main -->
 </div><!-- #primary -->
 <?php
 get_footer();
