@@ -18,7 +18,7 @@ get_header();
 <div id="primary">
 	<main id="main" class="site-main" style="display: block;">
 		<div>
-			<img src="http://localhost/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
 		<div class="container">
 			<section>
