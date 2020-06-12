@@ -27,9 +27,10 @@ get_header();
 		</section>
 
 		<section>
-			<h2>
-				Top Shelf Whiskey
-			</h2>
+		<div>
+			<h2> Top Shelf Whiskey</h2>
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="image">
+		</div>
 		</section>
 
 		<section>
@@ -52,9 +53,10 @@ get_header();
 		</section>
 
 		<section>
-			<h2>
-				Rye
-			</h2>
+		<div>
+			<h2>Rye</h2>
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="image">
+		</div>
 		</section>
 
 
