@@ -90,6 +90,24 @@ get_header();
 				<h2>
 					Cognac
 				</h2>
+				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+						<?php
+
+						$args = array(
+							'post_type' => 'product',
+							'product_cat' => 'cognac'
+						);
+
+						$loop = new WP_Query($args);
+						while ($loop->have_posts()) : $loop->the_post();
+							wc_get_template_part('content', 'product');
+
+						endwhile;
+						wp_reset_query(); // Remember to reset 
+						?>
+					</ul>
+				</div>
 
 			</section>
 
@@ -97,6 +115,24 @@ get_header();
 				<h2>
 					Rye
 				</h2>
+				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+						<?php
+
+						$args = array(
+							'post_type' => 'product',
+							'product_cat' => 'rye'
+						);
+
+						$loop = new WP_Query($args);
+						while ($loop->have_posts()) : $loop->the_post();
+							wc_get_template_part('content', 'product');
+
+						endwhile;
+						wp_reset_query(); // Remember to reset 
+						?>
+					</ul>
+				</div>
 			</section>
 		</div>
 
