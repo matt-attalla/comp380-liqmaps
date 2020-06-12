@@ -20,45 +20,85 @@ get_header();
 		<div>
 			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
-		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt=" image">
-			<h2>
-				The Finest Tequila
-			</h2>
-		</section>
+    <div>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt="Tequila Image">
+    </div>
+		<div class="container">
+			<section>
+				<h2>
+					The Finest Tequila
+				</h2>
+				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+						<?php
 
-		<section>
-			<h2>
-				Top Shelf Whiskey
-			</h2>
-		</section>
+						$args = array(
+							'post_type' => 'product',
+							'product_cat' => 'tequila'
+						);
 
-		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt=" image">
-			<h2>
-				Vodka
-			</h2>
-		</section>
+						$loop = new WP_Query($args);
+						while ($loop->have_posts()) : $loop->the_post();
+							wc_get_template_part('content', 'product');
 
-		<section>
-			<h2>
-				Rum
-			</h2>
-		</section>
+						endwhile;
+						wp_reset_query(); // Remember to reset 
+						?>
+					</ul>
+				</div>
+			</section>
 
-		<section>
-			<h2>
-				Cognac
-			</h2>
+			<section>
+				<h2>
+					Top Shelf Whiskey
+				</h2>
 
-		</section>
+				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
+					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
+						<?php
 
-		<section>
-			<h2>
-				Rye
-			</h2>
-		</section>
+						$args = array(
+							'post_type' => 'product',
+							'product_cat' => 'whiskey'
+						);
 
+						$loop = new WP_Query($args);
+						while ($loop->have_posts()) : $loop->the_post();
+							wc_get_template_part('content', 'product');
+
+						endwhile;
+						wp_reset_query(); // Remember to reset 
+						?>
+					</ul>
+				</div>
+			</section>
+
+			<section>
+        <img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
+				<h2>
+					Vodka
+				</h2>
+			</section>
+
+			<section>
+				<h2>
+					Rum
+				</h2>
+			</section>
+
+			<section>
+				<h2>
+					Cognac
+				</h2>
+
+			</section>
+
+			<section>
+				<h2>
+					Rye
+				</h2>
+			</section>
+		</div>
 
 	</main><!-- #main -->
 </div><!-- #primary -->
