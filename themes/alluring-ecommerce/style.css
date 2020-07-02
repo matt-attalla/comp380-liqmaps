@@ -1923,7 +1923,7 @@ a.custom-logo-link {
 	margin-right:7px;
 }
 img {
-	width: auto;
+	width: 100%;
 	max-width: 100%;
 }
 button.iot-menu-left-open {
@@ -3670,3 +3670,22 @@ ul.tabs.wc-tabs li.active,
 	border-bottom:2px solid #ec9e09;
 }
 @media screen and (max-width: 665px) { .cart-customlocation svg { margin-left:0px; } }
+
+
+.stripe-card-group, div#stripe-card-element, div#stripe-exp-element, div#stripe-cvc-element, label[for="stripe-cvc-element"], span.woocommerce-input-wrapper {
+	width: 100% !important;
+}
+
+label[for="wc-stripe-new-payment-method"] {
+	padding: 0 7px;
+    margin: 0 !important;
+}
+
+p.form-row.woocommerce-SavedPaymentMethods-saveNew.woocommerce-validated {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+body {
+	background-color: #fff !important;
+}

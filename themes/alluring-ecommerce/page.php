@@ -29,7 +29,7 @@ get_header();
 
 
 
-	<div id="primary" class="content-area large-8 medium-8 small-12 cell">
+	<div class="content-area small-12 cell container mx-auto">
 		<main id="main" class="site-main">
 
 		<?php

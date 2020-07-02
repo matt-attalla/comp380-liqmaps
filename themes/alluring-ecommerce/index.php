@@ -20,7 +20,6 @@ get_header();
 		<div>
 			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
 		</div>
-
 		<section>
 			<div class="container">
 				<h2>
@@ -180,7 +179,22 @@ get_header();
 				</div>
 			</div>
 		</section>
-
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-body text-center" style="background-color: white;">
+					<h2>
+						Are you 21 or Older ?
+					</h2>
+					<p>
+						Please verify that you are 21 years of age or older to enter this site.
+					</p>
+					<div>
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Yes</button>
+						<button type="button" id="age_denied" class="btn btn-danger">No</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main><!-- #main -->
 </div><!-- #primary -->
 <?php
