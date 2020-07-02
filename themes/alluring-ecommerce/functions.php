@@ -274,3 +274,5 @@ function add_div_before_product_thumbnail (){
 function add_div_after_product_thumbnail (){
 	echo "</div>";
 }
+
+remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
