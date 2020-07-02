@@ -22,7 +22,6 @@ get_header();
 		</div>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/tequila_bg_pic.jpg" alt="Tequila Image">
 			<div class="container">
 				<h2>
 					The Finest Tequila
