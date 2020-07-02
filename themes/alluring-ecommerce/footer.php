@@ -11,7 +11,7 @@
             <h3>
                 Liqmaps
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nam dignissimos adipisci consectetur enim quod voluptatem.</p>
+            <p>We thank you for choosing us. You're liver doesn't.</p>
         </div>
         <div class="col-lg-4">
             <h3>Menu</h3>
