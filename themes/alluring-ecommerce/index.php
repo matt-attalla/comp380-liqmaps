@@ -23,7 +23,7 @@ get_header();
 
 		<section>
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					The Finest Tequila
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -46,9 +46,9 @@ get_header();
 				</div>
 		</section>
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="Whiskey Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="Whiskey Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Top Shelf Whiskey
 				</h2>
 
@@ -74,9 +74,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Vodka
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -101,9 +101,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt="Rum Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt="Rum Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Rum
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -128,9 +128,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt="Cognac Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt="Cognac Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Cognac
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -155,9 +155,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="Rye Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="Rye Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Rye
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
