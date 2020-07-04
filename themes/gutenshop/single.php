@@ -35,6 +35,8 @@ get_header();
 
 		get_template_part( 'template-parts/content', get_post_type() );
 
+		/* this posts everything from the single product to related products */
+		
 			// About the author start
 		echo '<div class="about-the-author">';
 		echo '<div class="grid-x grid-padding-x">';
@@ -50,6 +52,8 @@ get_header();
 		echo '</div>';
 		echo '</div>';
 			// About the author end
+
+			/* not used within the single-product page */
 
 			// Related posts start
 		$categories = get_the_category($post->ID); 
@@ -89,11 +93,6 @@ get_header();
 				<?php $pexcerpt++;?>
 				<?php } echo '</div></main>'; }} wp_reset_postdata();
 						// Related posts end
-
-						// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
 
 						endwhile; // End of the loop.
 						?>
