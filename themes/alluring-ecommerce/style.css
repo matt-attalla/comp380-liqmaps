@@ -3891,3 +3891,7 @@ h2.woocommerce-loop-product__title {
 .product-container {
 	padding: 60px 0;
 }
+
+.woocommerce-product-gallery__trigger {
+  display: none;
+  }
