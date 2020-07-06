@@ -4,47 +4,46 @@
 
 
 
-<footer class="container">
+<footer style="background-color: #f8f8f8; padding: 30px 0;">
+    <div class="container">
+        <div class="d-flex flex-wrap">
+            <div class="col-lg-6">
+                <h3>
+                    Liqmaps
+                </h3>
+                <p class="text-capitalize">The only online liquor store you'll ever need</p>
+            </div>
+            <div class="col-lg-6 d-flex flex-column">
+                <h3 class="text-capitalize">
+                    Follow us on social media!
+                </h3>
+                <ul class="list-unstyled d-flex m-0 p-0">
+                    <li class="mr-2">
+                        <a href="/" target="_blank" style="color: #3b5998;">
+                            <i class="fab fa-2x fa-facebook-f"></i>
+                    </li>
 
-    <div class="d-flex flex-wrap">
-        <div class="col-lg-4">
-            <h3>
-                Liqmaps
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nam dignissimos adipisci consectetur enim quod voluptatem.</p>
+                    <li class="mr-2">
+                        <a href="/" target="_blank" class="text-dark">
+                            <i class="fab fa-2x fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="/" target="_blank" style="color: #1DA1F2;">
+                            <i class="fab fa-2x fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-lg-4">
-            <h3>Menu</h3>
-        </div>
-        <div class="col-lg-4 d-flex flex-column">
-            <h3>
-                Follow us
-            </h3>
-            <ul class="list-unstyled d-flex m-0 p-0">
-                <li class="mr-2">
-                    <a href="/" target="_blank">
-                        <i class="fab fa-2x fa-facebook-f"></i>
-                </li>
 
-                <li class="mr-2">
-                    <a href="/" target="_blank">
-                        <i class="fab fa-2x fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="mr-2">
-                    <a href="/" target="_blank">
-                        <i class="fab fa-2x fa-twitter"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div class="text-center pt-4">
+            <?php esc_html_e('Copyright', 'gutenshop'); ?> <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a><?php esc_html_e(' All rights reserved', 'gutenshop'); ?>
+            <!-- Delete below lines to remove copyright from footer -->
+
+        </div><!-- .site-info -->
     </div>
 
-    <div class="site-info text-center">
-        <?php esc_html_e('Copyright', 'gutenshop'); ?> <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a><?php esc_html_e(' All rights reserved', 'gutenshop'); ?>
-        <!-- Delete below lines to remove copyright from footer -->
-
-    </div><!-- .site-info -->
 </footer>
 
 

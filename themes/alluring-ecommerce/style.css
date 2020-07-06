@@ -3857,6 +3857,7 @@ p.form-row.woocommerce-SavedPaymentMethods-saveNew.woocommerce-validated {
   align-items: center;
   justify-content: space-between;
 }
+
 body {
   background-color: #fff !important;
 }
@@ -3885,4 +3886,8 @@ li:hover a span.price .woocommerce-Price-amount.amount {
 
 h2.woocommerce-loop-product__title {
   font-size: 18px;
+}
+
+.product-container {
+	padding: 60px 0;
 }
