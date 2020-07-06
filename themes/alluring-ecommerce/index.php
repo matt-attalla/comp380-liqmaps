@@ -18,12 +18,12 @@ get_header();
 <div id="primary" style="min-width: 100%;">
 	<main id="main" class="site-main" style="display: block;">
 		<div>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/liqmaps-hero.jpg" alt="Main image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/liqmaps-hero.jpg" alt="Main image">
 		</div>
 
 		<section>
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					The Finest Tequila
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -46,9 +46,9 @@ get_header();
 				</div>
 		</section>
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/whiskey-section_image.jpg" alt="Whiskey Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/whiskey-section_image.jpg" alt="Whiskey Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Top Shelf Whiskey
 				</h2>
 
@@ -74,9 +74,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/vodka-section_image.jpg" alt="Vodka Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/vodka-section_image.jpg" alt="Vodka Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Vodka
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -101,9 +101,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rum-section_image.jpg" alt="Rum Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rum-section_image.jpg" alt="Rum Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Rum
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -128,9 +128,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/cognac-section_image.jpg" alt="Cognac Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/cognac-section_image.jpg" alt="Cognac Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Cognac
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -155,9 +155,9 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rye-section_image.jpg" alt="Rye Image">
+			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rye-section_image.jpg" alt="Rye Image">
 			<div class="container">
-				<h2>
+				<h2 class = "product-section-title">
 					Rye
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
