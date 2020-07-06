@@ -15,10 +15,10 @@
 
 get_header();
 ?>
-<div id="primary">
+<div id="primary" style="min-width: 100%;">
 	<main id="main" class="site-main" style="display: block;">
 		<div>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Liqmaps-Hero.jpg" alt="Main image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/liqmaps-hero.jpg" alt="Main image">
 		</div>
 
 		<section>
@@ -46,7 +46,7 @@ get_header();
 				</div>
 		</section>
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Whiskey.jpg" alt="Whiskey Image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/whiskey-section_image.jpg" alt="Whiskey Image">
 			<div class="container">
 				<h2>
 					Top Shelf Whiskey
@@ -74,7 +74,7 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/greyGoose_BGpic.jpg" alt="Vodka Image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/vodka-section_image.jpg" alt="Vodka Image">
 			<div class="container">
 				<h2>
 					Vodka
@@ -101,7 +101,7 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rum_pic.jpg" alt="Rum Image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rum-section_image.jpg" alt="Rum Image">
 			<div class="container">
 				<h2>
 					Rum
@@ -128,7 +128,7 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Cognac_pic.png" alt="Cognac Image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/cognac-section_image.jpg" alt="Cognac Image">
 			<div class="container">
 				<h2>
 					Cognac
@@ -155,7 +155,7 @@ get_header();
 		</section>
 
 		<section>
-			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/06/Rye.jpg" alt="Rye Image">
+			<img src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rye-section_image.jpg" alt="Rye Image">
 			<div class="container">
 				<h2>
 					Rye
@@ -180,6 +180,22 @@ get_header();
 				</div>
 			</div>
 		</section>
+		<div class="modal fade" id="modalAgeCheck" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<h2 class="modal-title" id="staticBackdropLabel">Are you over the age of 21?</h2>
+						<p>
+							Please verify that you are 21 years of age or older to enter this site.
+						</p>
+						<div>
+							<button type="button" class="btn btn-secondary btn-block" data-dismiss="modal">Yes</button>
+							<button type="button" class="btn btn-danger btn-block" id="noButton" data-url="https://google.com" data-dismiss="modal">No</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</main><!-- #main -->
 </div><!-- #primary -->
