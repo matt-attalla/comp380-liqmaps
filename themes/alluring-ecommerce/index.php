@@ -22,8 +22,8 @@ get_header();
 		</div>
 
 		<section>
-			<div class="container">
-				<h2 class = "product-section-title">
+			<div class="container product-container">
+				<h2 class = "product-section-title text-center mb-5">
 					The Finest Tequila
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
@@ -47,8 +47,8 @@ get_header();
 		</section>
 		<section>
 			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/whiskey-section_image.jpg" alt="Whiskey Image">
-			<div class="container">
-				<h2 class = "product-section-title">
+			<div class="container product-container">
+				<h2 class = "product-section-title text-center mb-5">
 					Top Shelf Whiskey
 				</h2>
 
@@ -75,9 +75,9 @@ get_header();
 
 		<section>
 			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/vodka-section_image.jpg" alt="Vodka Image">
-			<div class="container">
-				<h2 class = "product-section-title">
-					Vodka
+			<div class="container product-container">
+				<h2 class = "product-section-title text-center mb-5">
+					Exceptional Vodka
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
 					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
@@ -102,9 +102,9 @@ get_header();
 
 		<section>
 			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rum-section_image.jpg" alt="Rum Image">
-			<div class="container">
-				<h2 class = "product-section-title">
-					Rum
+			<div class="container product-container">
+				<h2 class = "product-section-title text-center mb-5">
+					World Class Rum
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
 					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
@@ -129,9 +129,9 @@ get_header();
 
 		<section>
 			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/cognac-section_image.jpg" alt="Cognac Image">
-			<div class="container">
-				<h2 class = "product-section-title">
-					Cognac
+			<div class="container product-container">
+				<h2 class = "product-section-title text-center mb-5">
+				Incomparable Cognac
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
 					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
@@ -156,9 +156,9 @@ get_header();
 
 		<section>
 			<img class = "title-image" src="http://localhost:8888/liqmaps/wp-content/uploads/2020/07/rye-section_image.jpg" alt="Rye Image">
-			<div class="container">
-				<h2 class = "product-section-title">
-					Rye
+			<div class="container product-container">
+				<h2 class = "product-section-title text-center mb-5">
+				Unparalleled Rye
 				</h2>
 				<div style="max-width: 1200px; margin: 0 auto; padding: 0 30px;">
 					<ul class="d-flex flex-wrap w-100 list-unstyled m-0 p-0">
